@@ -16,7 +16,7 @@ df2.columns = ["საქონლის_კოდი", "საქონლი�
 df1 = df1.where((pd.notnull(df1)), None)
 df2 = df2.where((pd.notnull(df2)), None)
 mydb = mysql.connector.connect(
-    host="localhost", user="root", password="gigaberosql", database="შიდა_გადაზიდვა")
+    host="localhost", user="root", password="xxx", database="შიდა_გადაზიდვა")
 mycursor = mydb.cursor()
 
 #mycursor.execute("CREATE DATABASE შიდა_გადაზიდვა")
